@@ -1,0 +1,87 @@
+/* styles.css */
+
+body {
+    background: linear-gradient(45deg, #ff6b6b, #f06595, #cc5de8);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.container {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.form-horizontal {
+    padding: 1rem;
+}
+
+.form-group label {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: 600;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 2px solid #ced4da;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.btn-success {
+    background: linear-gradient(45deg, #23c9ff, #a2e2f2);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-success:hover {
+    background: linear-gradient(45deg, #1da1f2, #62c8f2);
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+h1.jumbotron {
+    font-size: 2.5rem;
+}
+
+.text-center {
+    text-align: center;
+}
